@@ -1203,6 +1203,10 @@ a.btn.btn-default.btn-lg {
     background: #eee;
     color: #F43C2C;
 }
+.new-footer {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
 
 
 /* slideshow */
