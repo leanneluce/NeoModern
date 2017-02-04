@@ -2,24 +2,10 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-@import url(fonts/CooperHewitt-Bold.otf);
-@import url(fonts/CooperHewitt-Book.otf);
-@import url(fonts/CooperHewitt-Medium.otf);
-@import url(fonts/Jaapokki-Regular.otf)
-
-
-/* PARALLAX ANIMATIONS */
-	.parallaxParent {
-		height: 100vh;
-		overflow: hidden;
-	}
-	.parallaxParent > * {
-		height: 200%;
-		position: relative;
-		top: -100%;
-	}
-
-
+@import url("../fonts/CooperHewitt-Bold.otf");
+@import url("../fonts/CooperHewitt-Book.otf");
+@import url("../fonts/CooperHewitt-Medium.otf");
+@import url("../fonts/Jaapokki-Regular.otf")
 
 /* Basic */
 
@@ -1008,8 +994,8 @@
 /* Banner */
 
 	#banner {
-		background-color: #666666;
-		background-image: url("../images/background-img.png");
+	/*	background-color: #666666;
+		background-image: url("../images/background-img.png"); */
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
