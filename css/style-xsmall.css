@@ -1,8 +1,12 @@
-/*
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../font-awesome/fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('../font-awesome/fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Basic */
 
@@ -61,4 +65,5 @@
 
 	#banner {
 		padding: 5em 2em 4em 2em;
+		width:100%;
 	}

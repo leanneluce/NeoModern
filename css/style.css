@@ -7,6 +7,16 @@
 @import url("../fonts/CooperHewitt-Medium.otf");
 @import url("../fonts/Jaapokki-Regular.otf")
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../font-awesome/fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('../font-awesome/fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Basic */
 
 	body {
@@ -15,7 +25,7 @@
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: "CooperHewitt-Book", Helvetica, sans-serif;
+		font-family: "CooperHewitt-Book", FontAwesome, Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -52,7 +62,7 @@
 		margin: 0 0 .5em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.125em;
-		font-family: "CooperHewitt-Book";
+		font-family: "CooperHewitt-Book", FontAwesome;
 		font-weight: 400;
 	}
 
@@ -1195,13 +1205,17 @@ ul.new-footer {
     color: black;
 }
 a.btn.btn-default.btn-lg {
-    border: 4px solid black;
-	padding: 20px 20px 15px;
-    font-size: 1.5em;
-}
-.btn.btn-default.btn-lg:hover {
+    padding: 20px 20px 15px;
+    font-size: 1em;
     background: #eee;
-    color: #F43C2C;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    font-family: FontAwesome, "CooperHewitt-Book";
+}
+a.btn.btn-default.btn-lg:hover {
+    background: #ccc;
+    color: black;
 }
 .new-footer {
     font-size: 1.2em;
