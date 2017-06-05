@@ -1,0 +1,36 @@
+/* ===============================
+NEOMODERN BRANDING ELEMENTS
+================================= */
+
+.red {
+  color: #BD2143;
+}
+.shadow {
+  box-shadow: 2px 2px 2px rgba(0,0,0,.05);
+}
+.caption {
+  text-align: center;
+  color: #ccc;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.red-banner {
+  background-color: #BD2143;
+  padding: 1rem 2rem .6rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: -15px;
+}
+.left .red-banner {
+  margin-right: 0px;
+  margin-left: -15px;
+}
+.border {
+  border: 1px solid #e7e7e7;
+}
+.red-frame {
+  border: 1px solid #BD2143;
+  margin-top: 30px;
+  padding: 2em 2em 0em 2em;
+}
